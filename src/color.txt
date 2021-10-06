@@ -1,0 +1,7 @@
+(-20deg, #366ED8, #F2FCFC, #A58BFF)
+(20deg, #366ED8, #F2FCFC, #A58BFF)
+
+(-65deg, #FDE49C, #F8485E)
+(65deg, #FDE49C, #F8485E)
+
+Main - (130deg , #366ED8, #F2FCFC, #A58BFF) & (130deg , #5b86e5, #28FFBF, #36d1dc)

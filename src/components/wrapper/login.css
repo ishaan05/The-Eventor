@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+.out{
+    background-color: lightcoral;
+    /* width: 40%; */
+	border-radius: 20px;
+	padding: 40px 20px;
+	/* border-bottom: solid 15px orangered;
+	border-top: solid 5px orangered; */
+	/* border-bottom-width: 2px; */
+	position: absolute;
+    color: yellow;
+	left: 50%;
+	top: 45%;
+    box-shadow: 3px 5px #444;
+	transform: translate(-50%, -50%);
+}
+
+.out .logout-user{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .out{
+        padding: 20px 10px;
+    }
+
+    .out .logout-user{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+  }
+
+/* @media screen and (max-width: 480px) {
+    .headingl{
+        margin-bottom: 0;
+    }
+    .headingl,.pl{
+        text-align: center;
+        color: white;
+        margin-bottom: 90px;
+    }
+
+  } */
+/* .form-control {
+    border: 1px solid #e2bc7e;
+    background-color: red;
+} */
+
+
+/* .form-label {
+    margin-bottom: .5rem;
+    color: white;
+}
+
+p{
+    margin-bottom: 20px;
+} */
+
+/* img, svg {
+    vertical-align: middle;
+    width: 10%; */
+    /* align-items: center; */
+    /* position: relative; */
+    /* right: -102px; */
+    /* left: 44%;
+} */
+
+/* .hero2{
+    margin: 39% 0 -2% 0;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    bottom: 94px;
+} */

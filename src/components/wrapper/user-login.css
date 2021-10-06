@@ -1,0 +1,136 @@
+/* .user-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} */
+/* .col-center {
+	margin-bottom: 100px;
+} */
+
+.login-wrapper {	
+	width: 40%;
+	border-radius: 20px;
+	padding: 40px 20px;
+	border: solid 1px whitesmoke;
+	/* border-bottom: solid 15px orangered;
+	border-top: solid 5px orangered; */
+	border-bottom-width: 2px;
+	position: absolute;
+	background-image: linear-gradient(65deg, lightblue, lightcoral);
+	box-shadow: 5px 7px #444;
+	border: none;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.login-wrapper h3 {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: -15px;
+	font-size: 35px;
+	color: yellow;
+}
+
+.login-wrapper ::placeholder{
+	text-align: left;
+	font-size: 14px;
+	color: #444;
+}
+
+/* .login-wrapper p {
+	text-align: justify;
+	margin-top: -15px;
+	margin-bottom: 15px;
+} */
+
+.login-wrapper .check {
+	display: inline-block;
+  padding-top: 6px;
+}
+
+.login-wrapper input {
+	margin-bottom: 10px
+}
+
+.login-wrapper .button {
+	outline: 0!important;
+	border: none;
+	margin-left: 230px;
+	color: #fff;
+	border-radius: 5px;
+	background-color: crimson;
+	padding: 8px 30px;	
+}
+
+.login-wrapper footer {
+	margin-top: 20px;
+}
+
+.login-wrapper button:hover {
+	background-color: lightgreen;
+	color: #444;
+}
+
+.out .logout-user .arrow{
+	margin-left: 100px;
+}
+
+@media screen and (max-width: 1104px), (max-width: 991px) {
+	.login-wrapper{
+        padding: 40px 20px;
+		width: 50%;
+    }
+
+	.login-wrapper .button {
+		outline: 0!important;
+		border: none;
+		margin-left: 180px;
+		color: #fff;
+		border-radius: 5px;
+		background-color: crimson;
+		padding: 8px 30px;	
+	}
+}
+
+@media (max-width: 947px) {
+	.login-wrapper{
+        padding: 40px 20px;
+		width: 50%;
+    }
+
+	.login-wrapper .button {
+		outline: 0!important;
+		border: none;
+		margin-left: 165px;
+		color: #fff;
+		border-radius: 5px;
+		background-color: crimson;
+		padding: 8px 30px;	
+	}
+}
+
+@media screen and (max-width: 480px), (max-width: 690px), (max-width: 768px)  {
+    .login-wrapper{
+        padding: 40px 20px;
+		width: 80%;
+    }
+
+	.login-wrapper .button {
+		outline: 0!important;
+		border: none;
+		margin-left: 70px;
+		color: #fff;
+		border-radius: 5px;
+		background-color: crimson;
+		padding: 8px 30px;	
+	}
+
+  }
+
+.logout-user{
+	margin-top: 20%;
+	text-align: center;
+	
+}

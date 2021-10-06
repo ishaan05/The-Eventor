@@ -1,0 +1,13 @@
+import React from 'react';
+import '../SignUp/Form.css';
+
+const FormSuccess = () => {
+  return (
+    <div className='form-content-right'>
+      <h1 className='form-success'>Registration Successfully Done!</h1>
+      <img className='form-img-2' src='images/success.svg' alt='success-img'></img>
+    </div>
+  );
+};
+
+export default FormSuccess;

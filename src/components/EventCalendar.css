@@ -1,0 +1,23 @@
+.EventCal{
+  display: flex;
+  flex-direction: row;
+
+}
+.CalForm {
+  /* position: relative; */
+  top: 0;
+  font-size: 16px !important;
+  /* display: grid; */
+  
+  margin-left: 25%;
+  padding: 20px;
+  border-radius: 2% ;
+  background-color: rgb(245, 251, 253);
+  border: 1px solid rgb(230, 230, 230);
+  
+}
+.EveCal{
+  margin-top: 30px !important;
+  background-color: rgb(255, 255, 255) !important;
+  width: 40% !important;
+}
